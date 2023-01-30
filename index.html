@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Mamma Mia!</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div></div>
+        <div class="container">
+            <h1>Ristorante Mamma Mia!</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">O Ristorante</a>
+                    </li>
+                    <li>
+                        <a href="#menu">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="#reserv">Fazer Reserva</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="prato" src="./imagens/prato.jpg" alt="Imagem de brusqueta" />
+            <div>
+                <h2>O Ristorante</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum soluta quae recusandae, harum itaque alias magni accusamus at, hic animi minus sequi sed a tenetur delectus quidem atque sapiente dolorem!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos nemo ipsum eos mollitia minima assumenda obcaecati voluptatum, nesciunt rem dolorum cupiditate ab aliquid? Mollitia aperiam ad nam odit doloribus?
+                </p>
+            </div>
+        </div>
+    </section>
+    <br><br><hr><br><br>
+    <section id="menu">
+        <div class="container">
+            <div>
+                <h2>O Cardápio</h2>
+            </div>
+            <img class="prato" src="./imagens/menu.jpg" alt="Imagem de brusqueta" />
+        </div>
+    </section>
+    <br><br><hr><br><br>
+    <section id="reserv"> 
+        <div class="container">
+            <img class="salao" src="./imagens/salao.png" alt="salao" />
+            <h2>Faça sua reserva</h2>
+            <div class="reserv-methods">
+                <div>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone" required />
+                        <label>Mesa para quantas pessoas?</label>
+                        <select>
+                            <option>1 Pessoa</option>
+                            <option>2 Pessoas</option>
+                            <option>3 Pessoas</option>
+                            <option>4 Pessoas</option>
+                        </select>
+                        <label for="birthday">Data da reserva</label>
+                        <input type="date" id="birthday" name="birthday">
+                        <textarea placeholder="Caso tenha alguma observação ou preferência, digite aqui." required></textarea>
+                        <button type="submit">Fazer reserva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Ristorante Mamma Mia! - Todos os direitos reservados - 2023
+            </p>
+        </div>
+        <ul class="social-links">
+            <li>
+                <a href="#" title="Siga-nos no Instagram">
+                    <img src="./imagens/instagram.png" alt="Logo do Instagram" />
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Siga-nos no Facebook">
+                    <img src="./imagens/facebook.png" alt="Logo do Facebook" />
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Peça pelo iFood">
+                    <img src="./imagens/ifood.png" alt="Logo do iFood" />
+                </a>
+            </li>
+        </ul>
+        <p>
+            Rua JavaScript, número 124, Vila HTML - São Paulo - SP
+        </p>
+    </footer>
+</body>
+</html>
